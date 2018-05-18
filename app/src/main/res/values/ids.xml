@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">638081038295</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.abhiinteractive.guessthecode</string>
+    <!-- leaderboard Most stars -->
+    <string name="leaderboard_most_stars" translatable="false">CgkI1-_fhMkSEAIQAQ</string>
+</resources>

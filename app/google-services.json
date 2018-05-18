@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "638081038295",
+    "firebase_url": "https://guessthecode-feeb0.firebaseio.com",
+    "project_id": "guessthecode-feeb0",
+    "storage_bucket": "guessthecode-feeb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638081038295:android:64d0cccc250c8d3c",
+        "android_client_info": {
+          "package_name": "com.abhiinteractive.guessthecode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638081038295-l5n0imntefvkgi60hdgmikjq46dnedga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhiinteractive.guessthecode",
+            "certificate_hash": "24421c3367553e24d3bdc1672a54bf839cf4ff17"
+          }
+        },
+        {
+          "client_id": "638081038295-riean03o47sq7mdfs7jduc1qm4q4uin9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvfmHpKRyZFh_Wn9fROXCNIUlcVQdtH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638081038295-riean03o47sq7mdfs7jduc1qm4q4uin9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

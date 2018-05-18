@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gtn_background_2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowColor="#FDD835"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Guess the\n code"
+        android:textColor="@color/teal900"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/start_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_main"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:id="@+id/casual_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_main"
+            android:gravity="center"
+            android:text="@string/casual"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:id="@+id/leaderboard_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_main"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textSize="30sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:id="@+id/how_to_play_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_main"
+            android:gravity="center"
+            android:text="@string/howtoplay"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:id="@+id/contact_us_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttons_main"
+            android:gravity="center"
+            android:text="Contact us"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+</LinearLayout>

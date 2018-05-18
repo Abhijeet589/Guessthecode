@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_layout"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="Options"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/options_get_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_main"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:text="Get hint"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/options_view_level_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons_main"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="View level info"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/options_give_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons_main"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Give up"
+        android:textSize="25sp" />
+
+</LinearLayout>

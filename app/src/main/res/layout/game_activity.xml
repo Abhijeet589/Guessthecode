@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gtn_background_2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chances_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Chances: 0"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/current_stars_linear_layout"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@id/chances_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/options_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/level_buttons"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="Options"
+            android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--The make your guess box-->
+    <LinearLayout
+        android:id="@+id/make_your_guess_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttons_main"
+        android:orientation="vertical">
+
+        <!--Make your guess title-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/makeYourGuess"
+            android:textSize="25sp" />
+
+        <!--The EditText's layout-->
+        <LinearLayout
+            android:id="@+id/edit_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_submit"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <!--The history box-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttons_main"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/past_answers_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/history"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/no_text_view"
+                style="@style/pastAnswersNumbers"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/number"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:src="@drawable/tick"
+                android:id="@+id/correct_position_text_view"
+                style="@style/pastAnswersNumbers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/correctPosition"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:src="@drawable/exclaimation"
+                android:id="@+id/wrong_position_text_view"
+                style="@style/pastAnswersNumbers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/wrongPosition"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:src="@drawable/cross"
+                android:id="@+id/wrong_char_text_view"
+                style="@style/pastAnswersNumbers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/wrongPosition"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/past_answers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-6229326724546843/1724845870" />
+
+</LinearLayout>

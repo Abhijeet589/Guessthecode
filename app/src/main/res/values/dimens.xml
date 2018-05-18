@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="min_height_for_levels">150dp</dimen>
+    <dimen name="min_height_for_stars_in_level_selector">50dp</dimen>
+    <dimen name="height_for_unlock_level">200dp</dimen>
+
+    <dimen name="margin_for_levels">8dp</dimen>
+    <dimen name="margin_in_dp_for_et">5dp</dimen>
+
+    <dimen name="text_size_8_sp">8sp</dimen>
+    <dimen name="text_size_10_sp">10sp</dimen>
+</resources>

@@ -1,0 +1,209 @@
+<resources>
+        <string name="default_gallery_storage">My Videos</string>
+        <string name="title_auto_upload">Auto upload</string>
+        <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
+        <string name="title_upload_quality">Upload Quality</string>
+        <string name="summary_upload_video_quality">Specify video quality for uploads</string>
+        <string name="pref_title_notifications">Notifications</string>
+        <string name="summary_choose_ringtone">Choose notification sound</string>
+        <string name="pref_header_about">About</string>
+        <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+        <string name="app_version">3.5</string>
+        <string name="summary_support">Got any queries? We are happy to help!</string>
+        <string name="title_send_feedback">Send Feedback</string>
+        <string name="title_faq">FAQ</string>
+        <string name="summary_faq">View frequently asked questions</string>
+        <string name="url_faq">https://www.androidhive.info/privacy-policy/</string>
+        <string name="privacy_policy">Privacy Policy</string>
+        <string name="url_privacy">https://www.androidhive.info/privacy-policy/</string>
+        <string name="title_terms">Terms &amp; Conditions</string>
+        <string name="url_terms">https://www.androidhive.info/terms-of-service/</string>
+        <string name="title_version">Version</string>
+        <string name="choose_email_client">Choose email client</string>
+        <string name="title_gallery_storage">Default Storage</string>
+        <string name="title_new_notification_sound">New message notification</string>
+        <string name="title_vibrate">Vibrate</string>
+        <string name="summary_vibrate">Vibrate on new notification</string>
+        <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+        <string name="key_gallery_name">key_gallery_name</string>
+        <string name="key_upload_quality">key_upload_quality</string>
+        <string name="notifications_new_message">notifications_new_message</string>
+        <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+        <string name="key_vibrate">key_vibrate</string>
+        <string name="key_send_feedback">key_send_feedback</string>
+
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="pref_upload_quality_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!--Spinner arrays-->
+    <string-array name="no_of_digits_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="alphabet_set_array">
+        <item>AB</item>
+        <item>ABC</item>
+        <item>ABCD</item>
+        <item>ABCDE</item>
+        <item>ABCDEF</item>
+        <item>ABCDEFG</item>
+        <item>ABCDEFGH</item>
+        <item>ABCDEFGHI</item>
+        <item>ABCDEFGHIJ</item>
+        <item>ABCDEFGHIJK</item>
+        <item>ABCDEFGHIJKL</item>
+        <item>ABCDEFGHIJKLM</item>
+    </string-array>
+
+    <!--Main app buttons and app strings-->
+    <string name="app_name">Guess the code</string>
+    <string name="start">Start</string>
+    <string name="howtoplay">How to play</string>
+    <string name="casual">Casual</string>
+
+    <!--Levels-->
+    <string name="set1">Set 1</string>
+    <string name="set2">Set 2</string>
+    <string name="set3">Set 3</string>
+    <string name="set4">Set 4</string>
+    <string name="level1">1</string>
+    <string name="level2">2</string>
+    <string name="level3">3</string>
+    <string name="level4">4</string>
+    <string name="level5">5</string>
+    <string name="level6">6</string>
+    <string name="level7">7</string>
+    <string name="level8">8</string>
+    <string name="level9">9</string>
+    <string name="level10">10</string>
+    <string name="level11">11</string>
+    <string name="level12">12</string>
+    <string name="level13">13</string>
+    <string name="level14">14</string>
+    <string name="level15">15</string>
+    <string name="level16">16</string>
+    <string name="level17">17</string>
+    <string name="level18">18</string>
+    <string name="level19">19</string>
+    <string name="level20">20</string>
+    <string name="level21">21</string>
+    <string name="level22">22</string>
+    <string name="level23">23</string>
+    <string name="level24">24</string>
+
+
+    <!--Game activity-->
+    <string name="makeYourGuess">Make your guess:</string>
+    <string name="submit">Submit</string>
+    <string name="history">History</string>
+    <string name="number">No</string>
+    <string name="wrongPosition">Correct digit\nwrong position</string>
+    <string name="correctPosition">Correct digit\ncorrect position</string>
+
+    <!--How to play-->
+    <string name="howtoplayexplaination">Game takes a random 3 digit number in mind and you need to guess it!\nPut digits(one in each box) in the boxes and the app will tell you how many numbers were in the correct position, and how many numbers were correct but at the wrong place</string>
+    <string name="howtoplayexplaination1">This is the number you guess. Most recent guesses appear at the bottom</string>
+    <string name="howtoplayexplaination2">This indicates if any one of your digits is in the number and also at the correct position. For 243 if you guess 673, this field says will say 1 as digit 3 is at correct place.</string>
+    <string name="howtoplayexplaination3">This tells you if either of the digits of the guessed number are actually in the number, but just at the wrong position. For 980, if you guess 809, this field will say 3 as all 3 digits do appear, but at wrong position</string>
+    <string name="howtoplayexplainationnote">The correct and incorrect positions are tracked separately, so for 205, if you say 250, it will be 1 in correct number correct position and 2 in correct number wrong position, hence all 3 digits are in the number of which 1 is at correct place and 2 at wrong.</string>
+    <string name="howtoplayexplainationtip">If it\'s a 0 in both the feilds, none of you guessed digits are in the number, so you can exclude those from further guesses</string>
+    <string name="exampleIntro">Let\'s look at an example</string>
+    <string name="example1">Excellent, so out digit doesn\'t have 1,2 or 5. Let\'s try other digits</string>
+    <string name="example2">The number has either 3,4 or 0 that too curretly is in wrong positions, well, let\'s try finding out other digits</string>
+    <string name="example3">2 digits of 789 are in the number, out of which 1 is in correct position. Let\'s try finiding which one it is and what\'s the correct position of the other one</string>
+    <string name="example4">Tried repositioning 9 and removing 8 to find if 9 was the other number and yes, that was it, and now it\'s in the correct position too. 7 surely is a part of number and also at correct position</string>
+    <string name="example5">We got the first 2 numbers and positions in their place, time to find out the third, and from our 2nd guess, we know that it\'s either 3,4 or 0 at the third place. Can\'t be 0 either since it said wrong position. If 0 was the third digit, it would have said correct position on the 2nd guess. Tried 3, nope</string>
+    <string name="example6">So it has to be 4, yeah!! Got the number, 794</string>
+    <string name="howtoplayend">That\'s it, you\'re all set\n\nGuess the numbers in as less chances as you can!\n\nUse the share button to challenge your friends and see who guesses in least number of moves!</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
